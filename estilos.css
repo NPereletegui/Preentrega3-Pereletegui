@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-icon {
+  height: 80px;
+}
+
+.collapse {
+  justify-content: end;
+}
+
+.bg-imagen-inicio {
+  height: 100vh;
+  width: 100%;
+  background-color: rgb(32, 32, 32);
+  background-image: url(img/peluquero-lg.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.main-inicio-box {
+  margin: 25px;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 10px;
+  box-shadow: 1px 1px 2px black;
+  background-color: rgba(0, 0, 0, 0.268);
+}
+
+.main-inicio-box h1 {
+  font-family: "Alata", sans-serif;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  color: white;
+  padding-top: 15px;
+  text-shadow: 1px 1px 2ox black;
+  margin-top: auto;
+}
+
+.redes {
+  font-size: 25px;
+  letter-spacing: 10px;
+}
+
+.main-peinados {
+  background-color: rgb(32, 32, 32);
+}
+
+.titulo-peinados {
+  font-family: "Alata", sans-serif;
+  color: white;
+  text-transform: unset;
+}
+
+#galeria img {
+  width: 100%;
+  border: 5px solid grey;
+  border-radius: 10px;
+  transition: all 0.9s;
+  filter: grayscale(100%);
+}
+
+#galeria img:hover {
+  filter: grayscale(0%);
+  transform: scale(1.1);
+}
+
+#galeria .col-sm-12 {
+  padding: 25px;
+}
+
+.main-nosotros {
+  background-color: rgb(32, 32, 32);
+  background-image: url(img/barber-shop-5212059_1920.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.main-nosotros-box {
+  margin: 25px;
+  border: 5px solid white;
+  color: white;
+  text-shadow: 1px 1px 2px black;
+  padding: 10px;
+  box-shadow: 1px 1px 2px black;
+  background-color: rgba(0, 0, 0, 0.268);
+}
+
+.main-nosotros-box a {
+  color: white;
+  text-decoration: none;
+}
+
+.main-nosotros-box h2 {
+  font-family: "Alata", sans-serif;
+}
+
+#contactos img {
+  width: 100%;
+  border-radius: 10px;
+  transition: all 0.9s;
+}
+
+#contactos .col-sm-12 {
+  padding: 25px;
+}
+
+#contactos img:hover {
+  transform: scale(1.1);
+}
+
+.main-contactos {
+  background-color: rgb(32, 32, 32);
+  background-image: url(img/espera.jpg);
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.titulo-contacto h1 {
+  font-family: "Alata", sans-serif;
+  color: white;
+  text-transform: unset;
+  font-size: 40px;
+  text-shadow: 1px 1px 2px black;
+  padding-bottom: 20px;
+}
+
+.titulo-contacto p {
+  font-family: "Alata", sans-serif;
+  color: white;
+  text-transform: unset;
+  font-size: 25px;
+  text-shadow: 1px 1px 2px black;
+  padding-bottom: 20px;
+}
+
+@media (min-width: 566px) {
+  .main-nosotros-box {
+    width: 80%;
+  }
+  .main-inicio-box {
+    width: 80%;
+    margin: 40px;
+    padding: 40px;
+  }
+  footer {
+    margin-top: 120px;
+  }
+}
+@media (min-width: 576px) {
+  footer {
+    margin-top: 161px;
+  }
+}
+@media (min-width: 720px) {
+  .main-inicio-box {
+    width: 50%;
+    margin: 40px;
+    padding: 40px;
+  }
+  footer {
+    margin-top: 161px;
+  }
+  .main-nosotros-box {
+    width: 60%;
+  }
+}
+@media (min-width: 1024px) {
+  .main-nosotros-box {
+    width: 50%;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
